@@ -4,7 +4,6 @@ const Header = ({ course }) => <h1>{course}</h1>;
 
 const Total = ({ sum }) => (
   <p>
-    {' '}
     <b>total of {sum} exercises</b>
   </p>
 );
