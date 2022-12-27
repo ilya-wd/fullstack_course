@@ -9,7 +9,7 @@ const Notification = (props) => {
     borderWidth: 1
   }
 
-  if (notification != '')
+  if (notification === '') return null
   return (
     <div style={style}>
       {notification}    

@@ -13,7 +13,7 @@ const AnecdoteForm = (props) => {
         const content = e.target.content.value
         e.target.content.value = ''
         props.createAnecdoteServer(content)
-        setTime(`Added ${content}`, 3)
+        dispatch(setTime(`Added ${content}`, 3))
     }
 
     return (
